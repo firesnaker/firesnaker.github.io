@@ -1,0 +1,86 @@
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+/* unvisited link */
+a:link {
+  color: #85827A;
+}
+
+/* visited link */
+a:visited {
+  color: #636157;
+}
+
+/* mouse over link */
+a:hover {
+  color: green;
+}
+
+/* selected link */
+a:active {
+  color: hotpink;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5em 3em;
+}
+
+#site_name {
+	font-weight: bold;
+	font-size: x-large;
+}
+
+#site_tagline {
+	font-size: large;
+}
+
+header li {
+	display: inline-block;
+	padding: 0 1em;
+}
+
+main {
+    background-image: url("img/bg-northern_lights.jpg");
+    /*background-image: url("img/bg-aurora.jpg");*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main #jumbotron_text {
+   	padding-top: 10em;
+	padding: 5% 20%;
+
+	/*background-color: rgba(46, 94, 76, 0.3);*/
+	background-color: rgba(34, 31, 60, 0.3);
+    color: #ffffff;
+    font-weight: bold;
+    
+    text-align:center;
+}
+
+.font_xxl {
+    font-size: xx-large;
+}
+
+.font_xl {
+    font-size: x-large;
+}
+
+.font_l {
+	font-size: large;
+}
+
+footer {
+	display: fixed;
+	position: bottom;
+
+	padding: 0.5em;
+	text-align:center;
+}
