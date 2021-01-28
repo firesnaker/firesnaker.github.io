@@ -4,28 +4,28 @@ body {
 	box-sizing: border-box;
 	width: 100%;
 	
-	background-color: #939597;
-	color: #F4F4F4;
+	background-color: #F8F8F8;
+	color: #000000;
 }
 
 /* unvisited link */
 a:link {
-  color: #003763;
+  color: #2C6495;
 }
 
 /* visited link */
 a:visited {
-  color: #003763;
+  color: #2C6495;
 }
 
 /* mouse over link */
 a:hover {
-  color: #003763;
+  color: #2C6495;
 }
 
 /* selected link */
 a:active {
-  color: #003763;
+  color: #2C6495;
 }
 
 header {
@@ -90,6 +90,6 @@ footer {
 	padding: 0.5em;
 	text-align:center;
 	
-	background-color: #E27C00;
-	color: #000000;
+	background-color: #2C6495;
+	color: #FFFFFF;
 }
