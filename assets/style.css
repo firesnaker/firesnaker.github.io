@@ -4,27 +4,28 @@ body {
 	box-sizing: border-box;
 	width: 100%;
 	
-	background-color: #F8F8F8;
+	background-color: #101010;
+	color: #FEFEFE;
 }
 
 /* unvisited link */
 a:link {
-  color: #2C6495;
+  color: #F47E33;
 }
 
 /* visited link */
 a:visited {
-  color: #2C6495;
+  color: #F47E33;
 }
 
 /* mouse over link */
 a:hover {
-  color: #2C6495;
+  color: #F47E33;
 }
 
 /* selected link */
 a:active {
-  color: #2C6495;
+  color: #F47E33;
 }
 
 header {
@@ -54,7 +55,8 @@ main {
     background-position: right top;
     background-size: 35%;
     background-attachment: local;
-    background-color: white;
+    background-color: #FEFEFE;
+    color: #101010;
 }
 
 main #jumbotron-text {
@@ -88,6 +90,6 @@ footer {
 	padding: 0.5em;
 	text-align:center;
 	
-	background-color: #2C6495;
-	color: white;
+	background-color: #F47E33;
+	color: #101010;
 }
