@@ -3,26 +3,28 @@ body {
 	margin: 0;
 	box-sizing: border-box;
 	width: 100%;
+	
+	background-color: #F8F8F8;
 }
 
 /* unvisited link */
 a:link {
-  color: #85827A;
+  color: #2C6495;
 }
 
 /* visited link */
 a:visited {
-  color: #636157;
+  color: #2C6495;
 }
 
 /* mouse over link */
 a:hover {
-  color: green;
+  color: #2C6495;
 }
 
 /* selected link */
 a:active {
-  color: hotpink;
+  color: #2C6495;
 }
 
 header {
@@ -32,12 +34,12 @@ header {
 	padding: 0.5em 3em;
 }
 
-#site_name {
+header #site_name {
 	font-weight: bold;
 	font-size: x-large;
 }
 
-#site_tagline {
+header #site_tagline {
 	font-size: large;
 }
 
@@ -47,22 +49,20 @@ header li {
 }
 
 main {
-    background-image: url("img/bg-night_mountain.jpg");
-    /*background-image: url("img/bg-aurora.jpg");*/
+	background-image: url("img/bg-photo.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position: right top;
+    background-size: 35%;
+    background-attachment: local;
+    background-color: white;
 }
 
-main #jumbotron_text {
-   	padding-top: 10em;
-	padding: 5% 20%;
+main #jumbotron-text {
+	width: 60%;
+	margin: 0 1em;
+	padding: 1em 0;
 
-	/*background-color: rgba(46, 94, 76, 0.3);*/
-	background-color: rgba(34, 31, 60, 0.3);
-    color: #ffffff;
-    font-weight: bold;
-    
-    text-align:center;
+    text-align:justify;
 }
 
 .font_xxl {
@@ -77,10 +77,17 @@ main #jumbotron_text {
 	font-size: large;
 }
 
+.center {
+	text-align: center;
+}
+
 footer {
 	display: fixed;
 	position: bottom;
 
 	padding: 0.5em;
 	text-align:center;
+	
+	background-color: #2C6495;
+	color: white;
 }
